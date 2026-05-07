@@ -22,7 +22,8 @@ const getSiteBody = (startWord, finishWord) => {
   //   `curl ${url}`,
   // ).toString();
 
-  return siteBody;
+  //return siteBody;
+  return '';
 };
 
 describe('Environmental Check', () => {

@@ -18,12 +18,12 @@ const getSiteBody = (startWord, finishWord) => {
     lastIndex + finishWord.length,
   );
 
-  // const siteBody = childProcess.execSync(
-  //   `curl ${url}`,
-  // ).toString();
+  const siteBody = childProcess.execSync(
+    `curl ${url}`,
+  ).toString();
 
-  //return siteBody;
-  return '';
+  return siteBody;
+
 };
 
 describe('Environmental Check', () => {
